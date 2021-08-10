@@ -1,4 +1,4 @@
-.Header img{
+/* .Header img{
   height: 80px;
   display: grid;
   align-items: center;
@@ -16,4 +16,29 @@
 }
 nav a:hover{
   background-color: gray;
+} */
+.headers img{
+  height: 80px;
+}
+.headers{
+  text-align: center;
+}
+nav{
+  background: black;
+  color: white;
+  display: flex;
+  padding: 20px;
+
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+nav a:hover{
+  color: rgb(245, 227, 227);
 }

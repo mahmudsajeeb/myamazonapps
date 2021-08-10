@@ -1,14 +1,13 @@
 import React from "react"
-import Header from "./components/Header/Header"
-
-import Shop from "./components/Shop/Shop"
+import Headers from "./components/Header/Headers";
+import Shops from "./components/Shop/Shops";
 
 
 function App() {
   return (
     <>
-    <Header />
-    <Shop />
+    <Headers />
+    <Shops />
     
     </>
   );
